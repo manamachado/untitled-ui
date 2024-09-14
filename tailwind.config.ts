@@ -1,10 +1,10 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -18,11 +18,11 @@ const config: Config = {
         'gray-300': '#D0D5DD',
         'gray-600': '#475467',
         'gray-700': '#344054',
-        'gray-900': '#101828'
+        'gray-900': '#101828',
       },
       maxWidth: {
-        'container': '77.5rem'
-      }
+        container: '77.5rem',
+      },
     },
   },
   plugins: [],
