@@ -7,7 +7,7 @@ import {
   FiZap,
 } from 'react-icons/fi';
 import { GridContainer } from '../GridContainer';
-import { ItemFeature } from './ItemFeature';
+import { ItemFeature } from '../ItemFeature';
 
 export function Features() {
   return (

@@ -1,3 +1,4 @@
+import { Analytics } from './components/Analytics';
 import { Companies } from './components/Companies';
 import { Features } from './components/Features';
 import { Header } from './components/Header';
@@ -12,6 +13,7 @@ export default function Home() {
       <Companies />
       <Features />
       <Testimonials />
+      <Analytics />
     </>
   );
 }
