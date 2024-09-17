@@ -1,7 +1,7 @@
 import Image from 'next/image';
+import { FiBarChart2, FiMail, FiZap } from 'react-icons/fi';
 import { GridContainer } from '../GridContainer';
 import { ItemFeature } from '../ItemFeature';
-import { FiBarChart2, FiMail, FiZap } from 'react-icons/fi';
 
 export function Analytics() {
   return (

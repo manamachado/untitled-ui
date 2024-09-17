@@ -1,5 +1,5 @@
-import { GridContainer } from '../GridContainer';
 import Image from 'next/image';
+import { GridContainer } from '../GridContainer';
 import { ItemMenu } from './ItemMenu';
 import { menuItems } from './menuItems';
 
