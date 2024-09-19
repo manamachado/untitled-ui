@@ -5,7 +5,7 @@ import { ItemFeature } from '../ItemFeature';
 
 export function Analytics() {
   return (
-    <section className="py-24">
+    <section className="pt-24">
       <GridContainer>
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 font-medium text-brand-700 bg-brand-50 rounded-2xl text-sm/snug">
@@ -56,6 +56,7 @@ export function Analytics() {
             isLearnMore
           />
         </div>
+        <hr className="border-gray-200 mt-24" />
       </GridContainer>
     </section>
   );

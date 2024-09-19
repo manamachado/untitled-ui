@@ -3,6 +3,7 @@ import { Companies } from './components/Companies';
 import { Features } from './components/Features';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
+import { Questions } from './components/Questions';
 import { Testimonials } from './components/Testimonials';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Testimonials />
       <Analytics />
+      <Questions />
     </>
   );
 }
